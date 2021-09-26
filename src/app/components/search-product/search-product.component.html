@@ -1,0 +1,14 @@
+<h1>Resultados para <small>'{{input}}'</small> </h1>
+<div class="Products">
+    <img src="../../../assets/img/fahova.png" alt="">
+    <div class="containerP" *ngFor="let object of products">
+        <div class="card">
+            <img src="{{ '../../../assets/img/'+object.url }}" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">{{object.name}}</h5>
+                <p class="card-text">{{object.price | currency:'COP '}}</p>
+                <a (click)="viewProduct(object.idProduct-1)" class="btn btn-outline-primary">View more</a>
+            </div>
+        </div>
+    </div>
+</div>

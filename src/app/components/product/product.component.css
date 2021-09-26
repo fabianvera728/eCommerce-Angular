@@ -1,0 +1,119 @@
+body{
+    position: relative;
+    background: none;
+    min-height: 100%;
+
+}
+body .content {
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    padding: 40px 40px;
+    border: solid 1px #333;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+body .content::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+    background: #afe0d0;
+    opacity: .3;
+}
+.content .textBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:baseline;
+    max-width: 600px;
+}
+.content .textBox h2{
+    color: rgb(43, 42, 42);
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.content .textBox h2 span{
+    font-size: 1em;
+    font-weight: 600;
+}
+.content .textBox p{
+    background:rgba(43, 42, 42, 0);
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    min-height: 20vh;
+    margin: 20px;
+    width: 500px;
+}
+.content .textBox a{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 20px;
+    background: #7c7c7c;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .textBox a:hover{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 20px;
+    background: #39a07e;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .imgBox{
+    width: 600px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+}
+.content .imgBox img{
+    max-width: 340px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    border-radius: 60px;
+}
+
+body .navigators{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+body .navigators a{
+    display: block;
+    padding: 8px 20px;
+    background: #26d198;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+} 
+body .navigators a:hover{
+    display: block;
+    padding: 8px 20px;
+    cursor: pointer;
+    background: #3e8b72;
+    border-radius: 10px;
+} 

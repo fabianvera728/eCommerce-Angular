@@ -1,0 +1,23 @@
+<body>
+<div class="content">
+    <div class="textBox">
+        <h2><span>{{this.product.name}}</span></h2>
+        <hr>
+        <h5>Description</h5>
+        <p>Lorem Ipsum es simplemente texto de relleno de la industria de
+            la impresión y la composición tipográfica. Lorem Ipsum ha sido
+            el texto de relleno estándar de la industria desde la década de
+            1500, cuando un impresor desconocido tomó una galera de tipos
+            y la mezcló</p>
+        <h5>Price: {{this.product.price | currency:'COP '}}</h5>
+        <a href="#">Get product</a>
+    </div>
+    <div class="imgBox">
+        <img src="{{ '../../../assets/img/'+this.product.url }}" class="starbucks">
+    </div>
+</div>
+<div class="navigators">
+    <a (click)="previousProduct()">previous</a>
+    <a (click)="nextProduct()">next</a>
+</div>
+</body>

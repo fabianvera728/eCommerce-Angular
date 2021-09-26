@@ -1,0 +1,93 @@
+[
+    {
+        "idProduct":1,
+        "name":"Yogurt Freijoa",
+        "description":"What Is Yogurt? Yogurt is cultured milk. ",
+        "url":"img1.png",
+        "price":200
+    },
+    {
+        "idProduct":2,
+        "name":"Yogurt Fresa",
+        "description":"What Is Yogurt? Yogurt is cultured milk. ",
+        "url":"img2.png",
+        "price":3000
+    },
+    {
+        "idProduct":3,
+        "name":"Yogurt Mora",
+        "description":"What Is Yogurt? Yogurt is cultured milk. ",
+        "url":"img3.png",
+        "price":1500
+    },
+    {
+        "idProduct":4,
+        "name":"Yogurt ...",
+        "description":"What Is Yogurt? Yogurt is cultured milk. ",
+        "url":"img4.jpg",
+        "price":5000
+    },
+    {
+        "idProduct":5,
+        "name":"Yogurt",
+        "description":"What Is Yogurt? Yogurt is cultured milk. ",
+        "url":"img5.jpg",
+        "price":3500
+    },
+    {
+        "idProduct":6,
+        "name":"Yogurt Activa",
+        "description":"What Is Yogurt? Yogurt is cultured milk. ",
+        "url":"img6.jpeg",
+        "price":4000
+    },
+    {
+        "idProduct":7,
+        "name":"Oikos",
+        "description":"What Is Yogurt? Yogurt is cultured milk. ",
+        "url":"img7.jpeg",
+        "price":7000
+    },
+    {
+        "idProduct":8,
+        "name":"Danone",
+        "description":"What Is Yogurt? Yogurt is cultured milk. ",
+        "url":"img8.jpeg",
+        "price":15062
+    },
+    {
+        "idProduct":9,
+        "name":"Frozen Vainilla",
+        "description":"What Is Yogurt? Yogurt is cultured milk. ",
+        "url":"img9.png",
+        "price":1200
+    },
+    {
+        "idProduct":10,
+        "name":"Bifidus Nueces Cereales",
+        "description":"What Is Yogurt? Yogurt is cultured milk. ",
+        "url":"img10.jpeg",
+        "price":800
+    },
+    {
+        "idProduct":11,
+        "name":"Yogs",
+        "description":"What Is Yogurt? Yogurt is cultured milk. ",
+        "url":"img11.jpg",
+        "price":900
+    },
+    {
+        "idProduct":12,
+        "name":"Yoplait",
+        "description":"What Is Yogurt? Yogurt is cultured milk. ",
+        "url":"img12.jpeg",
+        "price":2500
+    },
+    {
+        "idProduct":13,
+        "name":"Yogurt Happy",
+        "description":"What Is Yogurt? Yogurt is cultured milk. ",
+        "url":"img13.png",
+        "price":3500
+    }
+]

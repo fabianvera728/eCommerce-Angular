@@ -1,0 +1,95 @@
+.Header{
+    position:fixed;
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+    width: 100%;
+    background: #333;
+    opacity: .9;
+    box-shadow: 2px 2px 10px rgb(65, 97, 85);
+}
+.Header .PaneRoutes{
+    position: relative;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header .PaneRoutes a{
+    text-decoration: none;
+    color: #333;
+}
+.Header .PaneRoutes a img{
+    height: 60px;
+    background: rgb(109, 207, 186);
+    backdrop-filter: blur(30px);
+}
+.Header .PaneRoutes ul{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.Header .PaneRoutes ul li{
+    list-style: none;
+    padding: 8px 10px;
+    align-items: center;
+}
+
+
+.Header .PaneRoutes ul li a{
+    border-radius: 0px;
+    color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    border-bottom: solid 2px #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 1s;
+}
+.Header .PaneRoutes ul li a:hover{
+    background: #71d8b6;
+    color: #333;
+    padding: 8px 12px;
+    border-bottom: solid 2px #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.Header .PaneSearch{
+    position: relative;
+    display: flex;
+    margin-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header .PaneSearch input{
+    margin: 10px;
+    padding: 8px 15px;
+    border: solid 1px rgb(111, 160, 119);
+    border-radius: 10px;
+    background-color: rgb(161, 161, 161);
+    color: white;
+    outline: none;
+}
+.Header .PaneSearch button{
+    margin: 5px;
+    padding: 8px 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 1px #333;
+    background: none;
+    color: rgb(205, 253, 255);
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid 1px #1eb878;
+    transition: 1s;
+}
+.Header .PaneSearch button:hover{
+    margin: 5px;
+    padding: 8px 15px;
+    border: solid 1px #333;
+    outline: none;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+    background: #1eb878;
+}
